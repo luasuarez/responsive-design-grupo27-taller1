@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap');
+
+body{
+    margin: 0px;
+    padding: 0px;
+    min-width: 480px;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+main{
+    margin: 0px;
+    padding: 0px;
+    min-width: 480px;
+    max-width: 2850px;
+}
+
+/* Encabezado de página y barar de navegación */
+
+header{
+    width: 100%;
+    height: 10vh;
+    min-width: 480px;
+}
+
+header nav{
+    width: 100%;
+    height: 10vh;
+    background-color: darkblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 480px;
+}
+
+header nav ul{
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-left: 0px;
+}
+
+header nav ul li{
+    list-style: none;
+    padding: 5px 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.3rem;
+    color: azure;
+}
+
+header nav ul li:hover{
+    background-color: rgb(176, 130, 219);
+    cursor: pointer;
+}
+
+/* Fin encabezado de página y barar de navegación */
+
+/* Banner */
+
+.container{
+    background-image: url('https://thumbs.dreamstime.com/z/conos-de-helado-adentro-en-fondo-rosado-31233567.jpg');
+    width: 100%;
+    height: 90vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+.container .filter{
+    width: 100%;
+    height: 90vh;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.container .filter .col60{
+    width: 60%;
+    margin-left: 100px;
+}
+
+.container .filter .col60 h2{
+    font-size: 2.8rem;
+    color: whitesmoke;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.container .filter .col60 p{
+    font-size: 1.4rem;
+    color: whitesmoke;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+.container .filter .col60 button{
+    width: 30%;
+    padding: 5px 10px;
+    background-color: darkblue;
+    color: azure;
+    font-family: 'Poppins', sans-serif;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    cursor: pointer
+}
+
+/* Fin banner */
+
+/* Container main */
+
+.container-main{
+    width: 100%;
+}
+
+.container-main .row{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.container-main .row .col-30{
+    width: 18em;
+    height: 22em;
+    margin: 20px;
+    background-color: brown;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.container-main .row .col-30:nth-child(1){
+    background-image: url('https://i.pinimg.com/originals/1e/55/8d/1e558ddaf9da431b6d14d9f738b13ac5.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+.container-main .row .col-30:nth-child(2){
+    background-image: url('https://e6r9x5a3.rocketcdn.me/wp-content/uploads/2020/03/1.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+.container-main .row .col-30:nth-child(3){
+    background-image: url('https://i.pinimg.com/originals/59/dc/d0/59dcd0e53bcd9be7b558aa4318eacb9d.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+}
+    
+.container-main .row .col-30 h2{
+    background-color: rgba(0, 0, 0, 0.5);
+    font-size: 1.4rem;
+    color: azure;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-weight: 100;
+}
+
+.container-main .row .col-30 p{
+    font-size: 1.4rem;
+    color: #020202;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-weight: 300;
+    padding: 5px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+/* fin container main */
+
+/* Footer */
+
+footer{
+    width: 100%;
+    height: 50vh;
+}
+
+footer .row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: darkblue;
+}
+
+/* COLUMNA 1 */
+footer .row .col-30:nth-child(1){
+    width: 16em;
+}
+
+footer .row .col-30:nth-child(1) ol{
+    width: 100%;
+    padding-left: 0px;
+}
+
+footer .row .col-30:nth-child(1) ol li{
+    list-style: none;
+    color: #020202;
+    font-family: 'Poppins', sans-serif;
+    padding: 5px 10px;
+}
+
+footer .row .col-30:nth-child(1) ol li:hover{
+    color: rgb(176, 130, 219);
+    cursor: pointer;
+}
+
+/* COLUMNA 2 */
+
+footer .row .col-30:nth-child(2){
+    width: 16em;
+}
+
+footer .row .col-30:nth-child(2) ol{
+    width: 100%;
+    padding-left: 0px;
+}
+
+footer .row .col-30:nth-child(2) ol li{
+    list-style: none;
+    color: #020202;
+    font-family: 'Poppins', sans-serif;
+    padding: 5px 10px;
+}
+
+footer .row .col-30:nth-child(2) ol li:hover{
+    color: rgb(176, 130, 219);
+    cursor: pointer;
+}
+
+
+footer .row .col-30:nth-child(3){
+    width: 18em;
+}
+
+footer .row .col-30:nth-child(3) h2{
+    color: #020202;
+    font-family: 'Poppins', sans-serif;
+    padding: 5px 10px;
+    font-size: 1.1rem;
+}
+
+/* fin Footer */
+
+/* Media queries */
+
+@media (min-width: 1080px){
+    header nav ul li{
+        font-size: 1.7rem;
+        
+}
